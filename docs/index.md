@@ -51,3 +51,8 @@ Now that you've created your Github, let's get your VS Code Set Up.
 ## Today's Assignment
 
 Now that you're all set up, let's get started on today's assignment.
+
+* Part 1: Download R
+        * Download R from [here](https://cran.r-project.org/bin/windows/base/). Just click the link to download, and follow the instructions as it prompts you. R will handle all of the installation.
+* Part 2: Downloading your Lab
+        *
