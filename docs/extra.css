@@ -1,0 +1,63 @@
+@import url("https://use.typekit.net/dbv4kdq.css");
+
+[data-md-color-scheme="youtube"] {
+    --md-default-fg-color: #bf1363;
+    --md-default-fg-color--light: #bf1363;
+    --md-default-fg-color--lighter: #13bf6f;
+    --md-default-fg-color--lightest: #d7fff1;
+    --md-default-bg-color: #fff;
+    --md-primary-bg-color: #bf1363;
+    --md-primary-fg-color: #ecb8d0;
+    --md-accent-bg-color: #74776b;
+    --md-accent-fg-color: #bf1363;
+    --md-typeset-color: #000;
+    --md-typeset-a-color: var(--md-default-fg-color--lighter);
+}
+
+
+p {
+    font-family: "owners-text", sans-serif;
+    font-size: 18px;
+}
+
+
+h1 {
+    font-family: 'owners-narrow', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+h2,
+h3 {
+    font-family: 'owners-wide', sans-serif;
+    font-weight: 500;
+
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {font-size: 24px}
+
+h4 {
+    font-familY: 'shift', serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+a {
+    color: var(--md-accent-bg-color);
+}
+
+li {
+    font-family:'owners-text', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+code {
+    font-family: 'logic-monospace', mono;
+    font-weight: 300;
+}
+
