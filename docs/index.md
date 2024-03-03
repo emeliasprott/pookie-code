@@ -53,6 +53,28 @@ Now that you've created your Github, let's get your VS Code Set Up.
 Now that you're all set up, let's get started on today's assignment.
 
 * Part 1: Download R
-        * Download R from [here](https://cran.r-project.org/bin/windows/base/). Just click the link to download, and follow the instructions as it prompts you. R will handle all of the installation.
-* Part 2: Downloading your Lab
-        *
+  * Download R from [here](https://cran.r-project.org/bin/windows/base/). Just click the link to download, and follow the instructions as it prompts you. R will handle all of the installation.
+* Part 2: Setting up your Folder
+  * Open a new Terminal in VS Code by clicking Terminal -> New Terminal
+  * You're going to use the Command Line to create a folder for your labs
+    * Type mkdir pookie-code into the terminal
+    * Next type cd pookie-code into the terminal
+    * You just created a folder on your computer called pookie-code, and then changed your focus to be inside that folder
+* Part 3: Downloading your Lab
+  * Go to the [Github Repository](https://github.com/emeliasprott/pookie-code)
+  * Go to Labs, click Lab1, then "Download Raw Code" in the top right corner
+  * On your computer, move the downloaded file into the pookie-code folder you created
+  * Open the file in VS Code by clicking File -> Open
+* Part 4: Interacting with the Lab
+  * In your terminal, type a single capital R to open the R server
+  * Now you need to install the R packages needed to run this app. In the terminal, run each of these commands:
+    * install.packages("shiny")
+    * install.packages("shinydashboard")
+    * install.packages("tidyverse")
+    * install.packages("bslib")
+    * The first command you run will ask you to select a "CRAN". This is how R packages can be downloaded from anywhere in the world. The number for the US is 0.
+  * You can run your lab now.
+    * To run the lab, close the terminal you were using for R by clicking the trashcan next to the word R. Keep the first terminal open, and *don't* click the X. In this terminal, you should be inside the pookie-code folder. If you're not, close this terminal too and repeat step 2 without the mkdir step.
+    * With the lab open on the center of your screen, click it, then press CTRL + ENTER on your keyboard to run the lab. This will open the lab as a tab in your browser.
+    * For today, play around with the input options. See how the graph changes based on the settings you choose.
+    * Once you've done that, take a look at the code for the app. The UI section creates the visible parts of the app, and the server creates the actual functions of the app. The server uses some if statements and a for loop. Compare the file to the app output, and find these parts of the code. How do they work? What values does the app accept? In your notes, write down five different input combinations, along with a description of the graph they create.
